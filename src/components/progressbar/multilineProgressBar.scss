@@ -1,0 +1,66 @@
+.multicolor-bar {
+	display: flex;
+	flex-direction: column;
+}
+
+.multicolor-bar .values .value {
+	float: left;
+	text-align: center;
+}
+
+.multicolor-bar .scale .graduation {
+	float: left;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 2px;
+	align-items: flex-end;
+}
+
+.multicolor-bar .bars .bar {
+	float: left;
+	height: 10px;
+}
+
+.multicolor-bar .bars div.bar:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.multicolor-bar .bars div.bar:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.multicolor-bar .legends {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.multicolor-bar .legends .legend {
+	gap: 8px;
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 6px 0px;
+    margin: 0 5px;
+    text-align: center;
+	border: 1px solid red;
+}
+
+.multicolor-bar .legends .legend .dot {
+	vertical-align: middle;
+	border-radius: 3px;
+}
+
+.multicolor-bar .legends .legend .label {
+	margin-left: 2px;
+	vertical-align: middle;
+}
+
+.vertical_graduation{
+	height: 4px;
+	width: 1px;
+}

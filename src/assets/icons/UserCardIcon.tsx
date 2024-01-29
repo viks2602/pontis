@@ -1,0 +1,107 @@
+import { SvgIcon, SvgIconProps } from "@mui/material";
+
+export const UserCardIcon: React.FunctionComponent<SvgIconProps> = (props) => {
+  return (
+    <SvgIcon {...props}>
+      <svg
+        width="75"
+        height="75"
+        viewBox="0 0 75 75"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="75" height="75" fill="#1E1E1E" />
+        <g clip-path="url(#clip0_210_822)">
+          <rect
+            width="1512"
+            height="1216"
+            transform="translate(-311 -779)"
+            fill="#FBFBFB"
+          />
+          <g filter="url(#filter0_d_210_822)">
+            <g clip-path="url(#clip1_210_822)">
+              <rect
+                x="-29"
+                y="-26.5"
+                width="464"
+                height="128"
+                rx="15"
+                fill="white"
+              />
+              <path
+                d="M-12 -0.500002C-12 -8.78427 -5.28427 -15.5 3 -15.5H87V90.5H3C-5.28427 90.5 -12 83.7843 -12 75.5V-0.500002Z"
+                fill="#93CBFF"
+                fill-opacity="0.14"
+              />
+              <path
+                d="M54.6112 37.5007L43.6654 26.5548L48.0591 22.2382L54.6112 28.7902L67.7154 15.6861L72.032 20.0798L54.6112 37.5007ZM28.2487 37.5007C24.857 37.5007 21.9536 36.293 19.5383 33.8777C17.123 31.4625 15.9154 28.559 15.9154 25.1673C15.9154 21.7757 17.123 18.8722 19.5383 16.4569C21.9536 14.0416 24.857 12.834 28.2487 12.834C31.6404 12.834 34.5438 14.0416 36.9591 16.4569C39.3744 18.8722 40.582 21.7757 40.582 25.1673C40.582 28.559 39.3744 31.4625 36.9591 33.8777C34.5438 36.293 31.6404 37.5007 28.2487 37.5007ZM3.58203 62.1673V53.534C3.58203 51.7868 4.0322 50.1803 4.93253 48.7147C5.83286 47.2491 7.02714 46.1319 8.51536 45.3632C11.7015 43.7701 14.939 42.5748 18.2279 41.7772C21.5168 40.9797 24.857 40.5819 28.2487 40.584C31.6404 40.584 34.9806 40.9828 38.2695 41.7803C41.5584 42.5779 44.7959 43.7722 47.982 45.3632C49.4723 46.134 50.6676 47.2522 51.568 48.7178C52.4683 50.1834 52.9174 51.7888 52.9154 53.534V62.1673H3.58203Z"
+                fill="#99C6EF"
+              />
+            </g>
+          </g>
+        </g>
+        <defs>
+          <filter
+            id="filter0_d_210_822"
+            x="-34"
+            y="-32.5"
+            width="484"
+            height="148"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feMorphology
+              radius="1"
+              operator="dilate"
+              in="SourceAlpha"
+              result="effect1_dropShadow_210_822"
+            />
+            <feOffset dx="5" dy="4" />
+            <feGaussianBlur stdDeviation="4.5" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0.574583 0 0 0 0 0.7958 0 0 0 0 1 0 0 0 0.14 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_210_822"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_210_822"
+              result="shape"
+            />
+          </filter>
+          <clipPath id="clip0_210_822">
+            <rect
+              width="1512"
+              height="1216"
+              fill="white"
+              transform="translate(-311 -779)"
+            />
+          </clipPath>
+          <clipPath id="clip1_210_822">
+            <rect
+              x="-29"
+              y="-26.5"
+              width="464"
+              height="128"
+              rx="15"
+              fill="white"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+    </SvgIcon>
+  );
+};

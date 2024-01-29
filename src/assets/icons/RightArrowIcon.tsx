@@ -1,0 +1,133 @@
+import { SvgIcon, SvgIconProps } from "@mui/material";
+
+export const RightArrowIcon: React.FunctionComponent<SvgIconProps> = (
+  props
+) => {
+  return (
+    <SvgIcon {...props}>
+      <svg
+        width="47"
+        height="59"
+        viewBox="0 0 47 59"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="47" height="59" fill="#1E1E1E" />
+        <g id="Admin PAMS Dashboard" clip-path="url(#clip0_210_822)">
+          <rect
+            width="1512"
+            height="1216"
+            transform="translate(-323 -931)"
+            fill="#FBFBFB"
+          />
+          <g id="Frame 427319423">
+            <g id="Frame 427319351" filter="url(#filter0_d_210_822)">
+              <g clip-path="url(#clip1_210_822)">
+                <rect
+                  x="-41"
+                  y="-34.5"
+                  width="464"
+                  height="128"
+                  rx="15"
+                  fill="white"
+                />
+                <g id="Frame 427319418">
+                  <g id="Group 2398">
+                    <g id="Frame 427319417">
+                      <g id="bi:server">
+                        <path
+                          d="M-26 -8.5C-26 -16.7843 -19.2843 -23.5 -11 -23.5H73V82.5H-11C-19.2843 82.5 -26 75.7843 -26 67.5V-8.5Z"
+                          fill="#77D27F"
+                          fill-opacity="0.1"
+                        />
+                        <g
+                          id="mdi:application-cog"
+                          clip-path="url(#clip2_210_822)"
+                        >
+                          <path
+                            id="Vector"
+                            d="M38.1875 0.5H8.8125C3.81875 0.5 0 4.27 0 9.2V26.6H25.2625L18.5063 19.93C17.3313 18.77 17.3313 17.03 18.5063 15.87C19.6813 14.71 21.4437 14.71 22.6187 15.87L34.3687 27.47C35.5438 28.63 35.5438 30.37 34.3687 31.53L22.6187 43.13C21.4437 44.29 19.6813 44.29 18.5063 43.13C17.3313 41.97 17.3313 40.23 18.5063 39.07L25.2625 32.4H0V49.8C0 54.73 3.81875 58.5 8.8125 58.5H38.1875C43.1813 58.5 47 54.73 47 49.8V9.2C47 4.27 43.1813 0.5 38.1875 0.5Z"
+                            fill="#77D27F"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <defs>
+          <filter
+            id="filter0_d_210_822"
+            x="-46"
+            y="-40.5"
+            width="484"
+            height="148"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feMorphology
+              radius="1"
+              operator="dilate"
+              in="SourceAlpha"
+              result="effect1_dropShadow_210_822"
+            />
+            <feOffset dx="5" dy="4" />
+            <feGaussianBlur stdDeviation="4.5" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0.574583 0 0 0 0 0.7958 0 0 0 0 1 0 0 0 0.14 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_210_822"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_210_822"
+              result="shape"
+            />
+          </filter>
+          <clipPath id="clip0_210_822">
+            <rect
+              width="1512"
+              height="1216"
+              fill="white"
+              transform="translate(-323 -931)"
+            />
+          </clipPath>
+          <clipPath id="clip1_210_822">
+            <rect
+              x="-41"
+              y="-34.5"
+              width="464"
+              height="128"
+              rx="15"
+              fill="white"
+            />
+          </clipPath>
+          <clipPath id="clip2_210_822">
+            <rect
+              width="47"
+              height="58"
+              fill="white"
+              transform="translate(0 0.5)"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+    </SvgIcon>
+  );
+};
